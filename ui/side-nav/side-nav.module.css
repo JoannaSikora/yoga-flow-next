@@ -1,13 +1,13 @@
 .container {
+    padding-top: var(--spacing1);
     min-height: 100%;
     width: 300px;
     min-width: 300px;
-    background-color: rgba(var(--side-nav-rgb));
+    background-color: rgba(var(--background));
     position: relative;
 
     text-align: center;
     transition: .5s ease-in margin-left;
-    box-shadow: 21px 0px 47px -32px rgb(255, 255, 255);
 }
 
 .hidden {

@@ -9,8 +9,8 @@
 .button div {
     width: 35px;
     height: 5px;
-    background-color: black;
-    margin: 6px 0;
+    background-color: rgba(var(--background-end-rgb));
+    margin: var(--spacing1) 0;
 }
 
 .hidden {

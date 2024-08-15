@@ -2,7 +2,7 @@
     border-radius: 50%;
     height: 240px;
     width: 240px;
-    background-color: rgba(var(--side-nav-rgb));
+    background-color: rgba(var(--background));
     display: flex;
     position: absolute;
     top: calc(50vh - 120px);
@@ -13,10 +13,11 @@
     border-radius: 50%;
     height: 180px;
     width: 180px;
+    background: var(--secondary-glow);
     background-color: rgba(var(--background-end-rgb));
     margin: auto;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: var(--spacing2);
     font-weight: bold;
     transition: .2s ease-in transform;
     display: flex;
@@ -28,7 +29,7 @@
     transform: scale(1.2);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
     .wrapper {
        display: none;
     }

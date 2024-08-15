@@ -1,11 +1,11 @@
 .wrapper {
-    background-color: blueviolet;
-    padding: 16px;
-    border-radius: 16px;
+    background: var(--primary-glow);
+    padding: var(--spacing2);
+    border-radius: var(--spacing2);
     position: relative;
     height: 350px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin-right: var(--spacing2);
+    margin-bottom: var(--spacing2);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,7 +23,7 @@
 }
 
 .subtext {
-    margin-top: 8px;
+    margin-top: var(--spacing1);
     font-size: .8rem;
     color: #b4b4b4;
 }
@@ -34,11 +34,11 @@
 }
 
 .tag {
-    margin-right: 8px;
-    margin-bottom: 8px;
-    padding: 8px 16px;
-    border-radius: 16px;
+    margin-right: var(--spacing1);
+    margin-bottom: var(--spacing1);
+    padding: var(--spacing1) var(--spacing2);
+    border-radius: var(--border-radius);
     font-size: .9rem;
-    background-color: #fef6f3;
-    color: #fb7e57;
+    background-color: rgba(var(--background-end-rgb));
+    color: rgba(var(--foreground-rgb));
 }
