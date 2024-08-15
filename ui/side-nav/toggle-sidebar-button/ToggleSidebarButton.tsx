@@ -1,6 +1,6 @@
 'use client';
 
-import styles from './ToggleSidebarButton.module.css';
+import styles from './toggle-sidebar-button.module.css';
 import { useSideNavContext } from '@/lib/side-nav-context';
 import { clsx } from 'clsx';
 

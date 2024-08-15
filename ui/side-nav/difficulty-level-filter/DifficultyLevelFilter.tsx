@@ -1,7 +1,7 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useDebouncedCallback } from 'use-debounce';
 
-import styles from './DifficultyLevelFilter.module.css';
+import styles from './difficulty-level-filter.module.css';
 import Button from '@/ui/side-nav/difficulty-level-filter/button/Button';
 
 export default function DifficultyLevelFilter() {

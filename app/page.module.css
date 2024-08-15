@@ -1,0 +1,6 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 56px 56px 56px 96px;
+}

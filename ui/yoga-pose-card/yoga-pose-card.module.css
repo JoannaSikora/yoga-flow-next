@@ -1,0 +1,44 @@
+.wrapper {
+    background-color: blueviolet;
+    padding: 16px;
+    border-radius: 16px;
+    position: relative;
+    height: 350px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 250px;
+    flex: 1;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.image {
+    align-self: center;
+}
+
+.subtext {
+    margin-top: 8px;
+    font-size: .8rem;
+    color: #b4b4b4;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-size: .9rem;
+    background-color: #fef6f3;
+    color: #fb7e57;
+}
