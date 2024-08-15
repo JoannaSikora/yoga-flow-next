@@ -1,5 +1,16 @@
-## Getting Started
+# Yoga flow
 
+## Demo
+Here is a working live demo :  https://yoga-flow-next.vercel.app/
+
+<div>
+ <img src="https://i.ibb.co/3kC8jyn/Screenshot-2024-08-15-at-11-51-31.png" alt="screen" width="1000px"/>
+</div>
+
+## What it does?
+You can explore Asana's categorized by difficulty level.
+
+## How To Use
 First, run the development server:
 
 ```bash
