@@ -1,0 +1,29 @@
+.wrapper {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    background-color: rgba(var(--side-nav-rgb));
+    display: flex;
+    position: absolute;
+    top: calc(50vh - 7rem);
+    right: -3rem;
+}
+
+.inner {
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    background-color: rgba(var(--background-end-rgb));
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: bold;
+    transition: .2s ease-in transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner:hover {
+    transform: scale(1.2);
+}

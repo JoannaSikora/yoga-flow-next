@@ -1,0 +1,18 @@
+.button {
+    transition: .5s ease-in all;
+    cursor: pointer;
+    margin-left: 240px;
+    background-color: transparent;
+    border: none;
+}
+
+.button div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hidden {
+    margin-right: -200px;
+}
