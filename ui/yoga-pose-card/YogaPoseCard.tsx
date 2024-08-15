@@ -1,4 +1,4 @@
-import { YogaPose } from '@/app/interfaces/yoga-pose';
+import { YogaPose } from '@/interfaces/yoga-pose';
 
 interface Props {
   yogaPose: YogaPose;

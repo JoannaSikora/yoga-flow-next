@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import YogaPoseCard from '@/ui/yoga-pose-card/YogaPoseCard';
-import { YogaPosesList } from '@/app/interfaces/yoga-pose';
+import { YogaPosesList } from '@/interfaces/yoga-pose';
 
 interface Props {
   searchParams?: {
@@ -18,12 +18,12 @@ export default async function Home({
   const filteredYogaPoses = query ? yogaPoses.filter(pose => pose.level === query) : yogaPoses;
 
   return (
-    <>
+    <div>
       {filteredYogaPoses.map(yogaPose => (
         <YogaPoseCard
           key={yogaPose.id}
           yogaPose={yogaPose} />
       ))}
-    </>
+    </div>
   );
 }
