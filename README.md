@@ -4,7 +4,7 @@
 Here is a working live demo :  https://yoga-flow-next.vercel.app/
 
 <div>
- <img src="https://i.ibb.co/3kC8jyn/Screenshot-2024-08-15-at-11-51-31.png" alt="screen" width="1000px"/>
+ <img width="1512" alt="img" src="https://github.com/user-attachments/assets/2c83f5af-67f0-4c56-90be-a66bd76262b8">
 </div>
 
 ## What it does?
